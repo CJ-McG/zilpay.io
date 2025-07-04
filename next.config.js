@@ -27,6 +27,15 @@ const securityHeaders = [
 const nextConfig = {
   i18n,
   reactStrictMode: true,
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/pool',
+        permanent: false,
+      },
+    ];
+  },
   images: {
     domains: ['meta.viewblock.io'],
     disableStaticImages: true,

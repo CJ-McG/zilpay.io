@@ -162,16 +162,6 @@ export const Footer: React.FC = () => {
               {t(`privacy`)}
             </p>
           </Link>
-          <Link href="/extension-policy" passHref>
-            <p className={styles.pointer}>
-              {t(`extension-policy`)}
-            </p>
-          </Link>
-          <Link href="/dex-policy" passHref>
-            <p className={styles.pointer}>
-              {t(`dex-policy`)}
-            </p>
-          </Link>
           <a
             href="https://zilpay.github.io/zilpay-docs/"
             target="_blanck"

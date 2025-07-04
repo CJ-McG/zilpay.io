@@ -44,11 +44,6 @@ export const NavBar: React.FC = () => {
         </div>
       </Link>
       <div className={styles.center}>
-        <Link href="/swap" passHref>
-          <h3>
-            SWAP
-          </h3>
-        </Link>
         <Link href="/pool" passHref>
           <h3>
             POOL
